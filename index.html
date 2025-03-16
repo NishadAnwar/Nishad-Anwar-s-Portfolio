@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="image/image.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Md Nishad Anwar</title>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <!-- NAVBAR -->
+            <div class="navbar">
+                <div class="nav-name">
+                    <p>Md Nishad <span>Anwar</span> </p>
+                </div>
+                <div class="tab sidebar">
+                    <img src="image/cancel.png" alt="menu" class="nav-item-menubar" id="menubar" onclick=hideSidebar()>
+                    <p class="nav-item" data-tab="tab1">Home</p>
+                    <p class="nav-item" data-tab="tab2">About</p>
+                    <p class="nav-item" data-tab="tab3">Skill</p>
+                    <p class="nav-item" data-tab="tab4">Projects</p>
+                    <p class="nav-item" data-tab="tab5">Contact Me</p>
+                    <!-- <img src="image/mode.png" alt="mode-change" width="29px" height="27px" id="icon" /> -->
+
+                </div>
+                <div class="tab">
+                    <p class="nav-item hideOnMobile" data-tab="tab1">Home</p>
+                    <p class="nav-item hideOnMobile" data-tab="tab2">About</p>
+                    <p class="nav-item hideOnMobile" data-tab="tab3">Skill</p>
+                    <p class="nav-item hideOnMobile" data-tab="tab4">Projects</p>
+                    <p class="nav-item hideOnMobile" data-tab="tab5">Contact Me</p>
+                    <img src="image/menu (1).png" alt="menu" class="nav-item-menubar" id="menubar"
+                        onclick=showSidebar()>
+                    <img src="image/mode.png " alt="mode-change" width="29px" height="27px" id="icon" />
+
+                </div>
+            </div>
+
+            <!-- CONTENT -->
+            <div class="content">
+                <div class="tabcontent" id="tab1">
+                    <div class="home">
+                        <div class="content-links">
+                            <a href="https://www.linkedin.com/in/md-nishad-anwar-7b4076224/" target="_blank">
+                                <img src="image/linkedin (1).png" alt="linkdin" />
+                            </a>
+                            <a href="https://github.com/NishadAnwar" target="_blank">
+                                <img src="image/social.png" alt="github" />
+                            </a>
+                            <a href="https://x.com/NishadAnwar22" target="_blank">
+                                <img src="image/twitter (1).png" alt="twiter" />
+                            </a>
+                            <a href="https://www.instagram.com/nishaadanwar/" target="_blank">
+                                <img src="image/instagram (1).png" alt="twiter" />
+                            </a>
+                        </div>
+                        <div class="content-main">
+                            <div class="content-info">
+                                <h1>Hi, I'm Md Nishad Anwar </h1>
+                                <p class="text">
+                                    I am a <span class="role"></span>
+
+                                </p>
+                                <p class="text2">Building Software to solve real life <span>problems</span></p>
+                                <a href="mailto:mohammednishadanwar@gmail.com" id="mail">
+                                    <button class="btn-pink" id="btn">Hire me</button>
+                                </a>
+                                <div>
+                                    <a href="image/Md Nishad Anwar - RESUME.pdf" download class="cv">
+                                        <span>Download CV </span>
+                                        <img src="image/download.png" alt="">
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            <div class="content-image" id="tilt">
+                                <img src="image/dev pic.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tabcontent" id="tab2">
+                    <div class="about">
+                        <div>
+                            <h1>About Me</h1>
+                            <p>My Introduction</p>
+                        </div>
+                        <div class="about-content">
+                            <div class="about-img" id="tilt2">
+                                <img src="image/Passport size 2.jpg" alt="shreya">
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    Hey there,👋 I am Md Nishad Anwar from Hyderabad, Telanagana.
+                                    I am a Final Year Student at CMR Engineering College, Hyderabad,
+                                    pursuing B.Tech in Computer Science & Engineering (AI & ML).
+                                    <span> Apart from coding , some other activities that I love to do!
+                                        <div class="things-to-do">
+                                            Exploring New Technology,Writing Tech Blogs,Content Creation
+                                        </div>
+
+                                        <ul>
+                                            <li>Exploring New Technology</li>
+                                            <li>Creating userfriendly Websites</li>
+                                            <li>Automobile Enthusiast</li>
+                                        </ul>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabcontent" id="tab3">
+                    <div class="skill">
+                        <div class="skill-heading">
+                            <h1>Skills</h1>
+                            <p>My Technical Skills</p>
+                        </div>
+                        <div class="skills-dropdown">
+                            <div class="dropdown1">
+                                <button onclick="myFunction()" class="dropbtn ">
+                                    <img src="image/lang.png" width="25px" alt=""> Languages, Libraries &
+                                    Frameworks</button>
+                                <!-- <p>I have picked up over year</p> -->
+                                <div class=" myDropdown dropdown-content">
+                                    
+                                    <p>C</p>
+                                    <p>C++</p>
+                                    <p>Python</p>
+                                    <p>Java</p>
+                                    <p>SQL</p>
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>Javascript</p>
+                                    <p>React</p>
+                                    <p>Tailwind CSS</p>
+                                    <p>MongoDB</p>
+                                </div>
+                            </div>
+                            <div class="dropdown2">
+                                <button onclick="myFunction2()" class="dropbtnn"> <img src="image/tools.png"
+                                        width="25px" alt=""> Tools</button>
+                                <!-- <p>Tools that I know and use on a daily basis</p> -->
+                                <div class=" myDropdown2 dropdown-content2">
+                                    <p>Git</p>
+                                    <p>Github</p>
+                                    <p>MySQL Workbench</p>
+                                    <p>VS Code</p>
+                                    <p>Jupyter Notebook</p>
+                                    <p>Google Colab</p>
+                                    <p>Excel</p>
+                                    <p>PowerBI</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabcontent" id="tab4">
+                    <div class="project-section">
+                        <div class="project-heading">
+                            <h1>Projects</h1>
+                            <p>Most recent Work</p>
+                        </div>
+                        <div class="all-projects">
+                            <div class="project slide">
+                                <div class="projectt">
+                                    <div class="project-img">
+                                        <img src="image/weatherApp.png" alt="">
+                                    </div>
+                                    <div class="project-text">
+                                        <h2>Weather App</h2>
+                                        <p>A weather app using HTML, CSS, and JavaScript, integrated with an API for
+                                            real-time weather updates. The app features a sleek, responsive design for
+                                            an optimal user experience on any device.</p>
+                                        <div class="codeButton">
+                                            <a href="https://nishadanwar.github.io/Weather-App/"
+                                                target="_blank">Watch Live</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project slide">
+                                <div class="projectt">
+                                    <div class="project-img">
+                                        <img src="image/" alt="">
+                                    </div>
+                                    <div class="project-text">
+                                        <h2>Stock Price Predictor</h2>
+                                        <p>The Stock Price Predictor using Streamlit, JupyterLab, and Python 3.8+, utilizing pandas for data manipulation, yfinance for fetching stock data, and scikit-learn for building machine learning models.
+                                            This Streamlit app predicts stock prices using various models like RandomForest and XGBoost, with an expected
+                                            accuracy of around 50%-60% based on historical data.</p>
+                                        <div class="codeButton">
+                                            <a href="https://github.com/NishadAnwar/Stock-Price-Predictor.git"
+                                                target="_blank">Watch Live</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project slide">
+                                <div class="projectt">
+                                    <div class="project-img">
+                                        <img src="image/Tkinter CV Format.png" alt="">
+                                    </div>
+                                    <div class="project-text">
+                                        <h2>CV Builder GUI Application</h2>
+                                        <p>CV Builder application uses Python Tkinter, allowing users to input details and generate professional resumes.
+                                        Focused on enhancing user experience with an intuitive, interactive platform for resume creation.
+                                            </p>
+                                        <div class="codeButton">
+                                            <a href="https://nishadanwar.github.io/Tkinter-CV.//"
+                                                target="_blank">Watch Live</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabcontent" id="tab5">
+                    <div class="form-conatiner">
+                        <div class="form-heading">
+                            <h1>Contact Me</h1>
+                            <p>Want to connect? My inbox is always open!</p>
+                        </div>
+                        <div class="form">
+                            <form action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="054d5429-e52b-4995-8b91-300b05314178">
+                                
+                                        <input type="text" id="home" placeholder="Your Name" name="my_name" required>
+                                        <input type="email" id="email" placeholder="Email id" name="my_email" required>
+                                    
+                                    
+                                        <input type="text" id="phone" placeholder="Phone No." name="my_phoneNo"
+                                            required>
+                                        
+                                    
+
+                                <textarea id="message" cols="30" rows="10" placeholder="Write Here"
+                                    name="my_message"></textarea>
+                                <div class="button">
+                                    <button type="submit">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <p class="footer">© Md Nishad Anwar. All Rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="style.js"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
